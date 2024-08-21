@@ -8,8 +8,6 @@ import asyncio
 with open('token.txt', 'r') as file:
     TOKEN = file.read().strip()
 
-TOKEN = 'MTI2MDU2NDc4NTAwMzYyNjYxOA.GVj3IG.5y2Dba16W0BpvlwOZieVx0jsvy5vYWWeTuDwN8'
-
 intents = discord.Intents.default()
 intents.message_content = True
 intents.guilds = True
